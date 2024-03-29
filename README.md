@@ -21,7 +21,7 @@ Configuring a working Express.js API and using Sequelize to interact with a MySQ
   When using this application, the user is able to add a database name, MySQL username, and MySQL password to an enviorment variable. The user is then able to connect to the database using Sequelize. The user can then enter SOURCE db/schema.sql in the MySQL shell, and npm run seed in the command line. The developement database is created and seeded with the test data. The user can then invoke the application but running node server.js in the command line, and the sequelize models are synced to the MySQL database. The user can then use Insomnia Core to open API GET routes for categories, products, and/or tags. The data for each of these routes is displayed in a formatted JSON. The user can then test API POST, PUT, and DELETE routes in Insomnia Core and successfully create, update, and delete data from the database.
 
   Here is a link to the walkthrough demo video:
-
+  https://drive.google.com/file/d/1hp9FThTJY199nD_D5L0XgoB9QwzKGYvp/view
   
 
   ## Contribution
@@ -31,7 +31,7 @@ Configuring a working Express.js API and using Sequelize to interact with a MySQ
   N/A
 
   ## Credits
-  Used Xpert Learning Assistant, used module 13 activities and mini project, and developer.mozilla.org (MDN) as resources to help create code. Also referred to sequelize documentation, referenced Challenge 13 instructions to set up models, and referenced these links:
+  Used Xpert Learning Assistant, used module 13 activities, referenced the mini project, and used developer.mozilla.org (MDN) as resources to help create code. Also referred to sequelize documentation, referenced Challenge 13 instructions to set up models, and referenced these links:
     https://sequelize.org/docs/v6/core-concepts/model-basics/
     https://sequelize.org/docs/v6/core-concepts/assocs/
     https://sequelize.org/docs/v7/models/defining-models/
